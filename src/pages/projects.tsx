@@ -2,6 +2,12 @@ import type { NextPageWithLayout } from "./_app";
 
 const project_list = [
   {
+    title: "KU GenEd Credit Count",
+    description: "A web version of GenEd Credit Count project.",
+    date: "December 2023",
+    repo: "https://gened-credit-count-frontend.vercel.app/",
+  },
+  {
     title: "bitly clone frontend",
     description: "Frontend for bitly clone project.",
     date: "December 2023",
