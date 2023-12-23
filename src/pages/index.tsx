@@ -18,7 +18,7 @@ const other_tools_list = [
   " Vercel",
 ];
 
-const backend_framework_list = ["NestJS", "FastAPI"];
+const framework_list = ["Next.js", "NestJS", "FastAPI"];
 
 const Page = () => {
   return (
@@ -67,11 +67,11 @@ const Page = () => {
         </ul>
       </div>
       <h2 className="text-center text-white text-3xl font-bold pt-10">
-        Backend Framework
+        Framework
       </h2>
       <div className="w-full mx-auto md:w-1/4">
         <ul className="ps-5 mt-2 space-y-1 list-disc list-inside text-white text-l">
-          {backend_framework_list.map((item) => (
+          {framework_list.map((item) => (
             <li key={item.indexOf(item)}>{item}</li>
           ))}
         </ul>
